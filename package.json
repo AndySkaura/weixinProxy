@@ -1,11 +1,19 @@
 {
   "name": "weixin-proxy-ilink",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "type": "module",
   "description": "A Node.js WeChat bot powered by the iLink protocol.",
   "author": {
     "name": "kura",
     "url": "https://kuraa.cc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndySkaura/weixinProxy.git"
+  },
+  "homepage": "https://github.com/AndySkaura/weixinProxy#readme",
+  "bugs": {
+    "url": "https://github.com/AndySkaura/weixinProxy/issues"
   },
   "license": "MIT",
   "main": "./src/index.js",

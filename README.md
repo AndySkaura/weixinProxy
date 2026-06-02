@@ -2,6 +2,12 @@
 
 一个基于 **iLink 协议** 的 Node.js 微信 Bot。支持微信扫码登录、长轮询接收消息，以及文本、图片、视频和文件的收发。
 
+项目链接：
+
+- GitHub：[AndySkaura/weixinProxy](https://github.com/AndySkaura/weixinProxy)
+- npm：[weixin-proxy-ilink](https://www.npmjs.com/package/weixin-proxy-ilink)
+- 作者：[kuraa.cc](https://kuraa.cc)
+
 本项目支持两种使用方式：
 
 - [作为 CLI 使用](#作为-cli-使用)：适合直接在终端扫码登录、监听和收发消息。
