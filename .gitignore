@@ -1,0 +1,4 @@
+node_modules/
+.weixin-proxy/
+coverage/
+.DS_Store

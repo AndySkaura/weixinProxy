@@ -1,0 +1,54 @@
+{
+  "name": "weixin-proxy-ilink",
+  "version": "0.1.1",
+  "type": "module",
+  "description": "A Node.js WeChat bot powered by the iLink protocol.",
+  "author": {
+    "name": "kura",
+    "url": "https://kuraa.cc"
+  },
+  "license": "MIT",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": {
+    "wxilink": "./src/cli.js",
+    "weixin-proxy-ilink": "./src/cli.js",
+    "weixin-proxy": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "login": "node src/cli.js login",
+    "listen": "node src/cli.js listen",
+    "send": "node src/cli.js send",
+    "send-image": "node src/cli.js send-image",
+    "send-file": "node src/cli.js send-file",
+    "send-video": "node src/cli.js send-video",
+    "repl": "node src/cli.js repl",
+    "test": "vitest",
+    "prepack": "npm test -- --run"
+  },
+  "keywords": [
+    "wechat",
+    "weixin",
+    "ilink",
+    "cli",
+    "bot"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
